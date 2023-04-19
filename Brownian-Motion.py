@@ -11,11 +11,11 @@ def BM():
     # del = 0.00001
     delta = 0.000001
 
-    sig = 1
-
     nT = int(T / delta)
 
     VecX = np.zeros(nT + 1)
+
+    sig = 1
     VecT = np.zeros(nT + 1)
 
     delX = sig * (delta)**(1/2)
